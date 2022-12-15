@@ -1,3 +1,7 @@
+# Initial Commit
+
+Listening to Charles Bukowski's "There's Gonna Be a God Damn Riot in Here"
+
 # Eleventy Starter Ghost
 
 A starter template to build completely static websites with [Ghost](https://ghost.org) & [Eleventy](https://www.11ty.io)
