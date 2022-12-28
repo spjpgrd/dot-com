@@ -3,7 +3,7 @@ interface props {
 }
 
 const Test = (props: props) => {
-    return `${props.someText}`
-}
+    return `${props.someText}`;
+};
 
 export default Test;
