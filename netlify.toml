@@ -184,6 +184,11 @@ to = "https://medium.com/@spjpgrd"
 status = 200
 
 [[redirects]]
+from = "/on/steam"
+to = "https://steamcommunity.com/id/spjpgrd/"
+status = 200
+
+[[redirects]]
 from = "/on/flickr"
 to = "https://flickr.com/people/127655305@N08/"
 status = 200
