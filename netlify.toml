@@ -304,6 +304,11 @@ to = "https://untappd.com/user/spjpgrd"
 status = 200
 
 [[redirects]]
+from = "/on/untapped"
+to = "https://untappd.com/user/spjpgrd"
+status = 200
+
+[[redirects]]
 from = "/on/battlenet"
 to = "https://spjpgrd.com/spjpgrd#1819"
 status = 200
