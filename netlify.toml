@@ -11,349 +11,349 @@ status = 200
 [[redirects]]
 from = "/on/mastodon"
 to = "https://mstdn.party/@spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/linkedin"
 to = "http://www.linkedin.com/in/spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/github"
 to = "https://github.com/spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/applemusic"
 to = "https://geo.itunes.apple.com/profile/spjpgrd?at=10lwgb"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/apple-music"
 to = "https://geo.itunes.apple.com/profile/spjpgrd?at=10lwgb"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/lastfm"
 to = "https://last.fm/user/spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/last-fm"
 to = "https://last.fm/user/spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/last.fm"
 to = "https://last.fm/user/spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/dribbble"
 to = "http://www.dribbble.com/spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/dribble"
 to = "http://www.dribbble.com/spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/codepen"
 to = "http://codepen.io/spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/aboutme"
 to = "https://about.me/spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/angellist"
 to = "https://angel.co/spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/angel-list"
 to = "https://angel.co/spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/wellfound"
 to = "https://angel.co/spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/codeacademy"
 to = "https://www.codecademy.com/profiles/spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/code-academy"
 to = "https://www.codecademy.com/profiles/spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/cohost"
 to = "https://cohost.org/spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/delectable"
 to = "https://delectable.com/@seandoran"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/designernews"
 to = "https://www.designernews.co/users/10400%2Fsean-doran"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/designer-news"
 to = "https://www.designernews.co/users/10400%2Fsean-doran"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/discord"
 to = "https://discordapp.com/users/spjpgrd#6693"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/ello"
 to = "https://ello.co/spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/epicgames"
 to = "https://spjpgrd.com/6bdadbec8c1547dcad69500cadd90f0d"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/epic-games"
 to = "https://spjpgrd.com/6bdadbec8c1547dcad69500cadd90f0d"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/etsy"
 to = "https://www.etsy.com/shop/spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/figma"
 to = "https://www.figma.com/@spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/fiverr"
 to = "https://www.fiverr.com/spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/fiver"
 to = "https://www.fiverr.com/spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/pinterest"
 to = "https://pinterest.com/spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/tumblr"
 to = "http://spjpgrd.tumblr.com/"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/500px"
 to = "https://500px.com/p/spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/foursquare"
 to = "https://foursquare.com/spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/soundcloud"
 to = "https://soundcloud.com/spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/medium"
 to = "https://medium.com/@spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/steam"
 to = "https://steamcommunity.com/id/spjpgrd/"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/flickr"
 to = "https://flickr.com/people/127655305@N08/"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/stackexchange"
 to = "https://stackexchange.com/users/4489641/spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/stack-exchange"
 to = "https://stackexchange.com/users/4489641/spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/stackoverflow"
 to = "https://stackoverflow.com/users/3651054/spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/stack-overflow"
 to = "https://stackoverflow.com/users/3651054/spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/quora"
 to = "https://www.quora.com/profile/Sean-Patrick-John-Paul-George-Ringo-Doran"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/producthunt"
 to = "https://www.producthunt.com/@spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/product-hunt"
 to = "https://www.producthunt.com/@spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/kickstarter"
 to = "https://www.kickstarter.com/profile/spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/yelp"
 to = "https://www.yelp.com/user_details?userid=YNyQYEvMBUx91xIgpx-5Yw"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/snapchat"
 to = "https://snapchat.com/add/spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/genius"
 to = "https://genius.com/spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/hypemachine"
 to = "https://hypem.com/spjpgrd/"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/hype-machine"
 to = "https://hypem.com/spjpgrd/"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/hackernews"
 to = "https://news.ycombinator.com/user?id=spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/hacker-news"
 to = "https://news.ycombinator.com/user?id=spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/keybase"
 to = "https://keybase.io/spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/meetup"
 to = "https://www.meetup.com/members/110547532/"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/myfitnesspal"
 to = "https://www.myfitnesspal.com/profile/spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/my-fitness-pal"
 to = "https://www.myfitnesspal.com/profile/spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/nintendo"
 to = "https://lounge.nintendo.com/friendcode/1238-6137-6221/DBLv16pLt6"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/rapchat"
 to = "https://rapchat.com/profile/5579E650-78FD-11E6-A2FA-15431CF154B4"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/unsplash"
 to = "https://unsplash.com/@spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/untappd"
 to = "https://untappd.com/user/spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/untapped"
 to = "https://untappd.com/user/spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/battlenet"
 to = "https://spjpgrd.com/spjpgrd#1819"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/venmo"
 to = "https://venmo.com/u/spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/cash"
 to = "https://cash.app/$spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/cashapp"
 to = "https://cash.app/$spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/cash-app"
 to = "https://cash.app/$spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/squarecash"
 to = "https://cash.app/$spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/square-cash"
 to = "https://cash.app/$spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/paypal"
 to = "http://paypal.me/spjpgrd"
-status = 200
+status = 307
 
 [[redirects]]
 from = "/on/vimeo"
 to = "https://vimeo.com/spjpgrd"
-status = 200
+status = 307
