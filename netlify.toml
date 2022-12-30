@@ -362,3 +362,9 @@ status = 307
 from = "/on/gitlab"
 to = "https://gitlab.com/spjpgrd"
 status = 307
+
+[[redirects]]
+from = "/on/vercel"
+to = "https://vercel.com/spjpgrd"
+status = 307
+
