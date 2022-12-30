@@ -372,3 +372,9 @@ status = 307
 from = "/on/devcommunity"
 to = "https://dev.to/spjpgrd"
 status = 307
+
+[[redirects]]
+from = "/on/gravatar"
+to = "https://gravatar.com/spjpgrd"
+status = 307
+
