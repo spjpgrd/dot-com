@@ -357,3 +357,8 @@ status = 307
 from = "/on/vimeo"
 to = "https://vimeo.com/spjpgrd"
 status = 307
+
+[[redirects]]
+from = "/on/gitlab"
+to = "https://gitlab.com/spjpgrd"
+status = 307
