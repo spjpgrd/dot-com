@@ -1,9 +1,9 @@
 interface props {
-    someText: string;
+  someText: string;
 }
 
 const Test = (props: props) => {
-    return `${props.someText}`;
+  return `${props.someText}`;
 };
 
 export default Test;
