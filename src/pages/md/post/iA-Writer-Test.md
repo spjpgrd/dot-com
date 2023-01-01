@@ -22,7 +22,7 @@ Added a link, but now feeling like the link
 
 Just wasted 45 minutes figuring out stupid things. I've forgotten so much 😅
 
-***
+---
 
 Testing writing in iA Writer on my iPad, and pointing to the project within Working Copy.
 

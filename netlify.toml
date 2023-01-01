@@ -7,6 +7,12 @@ from = "/.well-known/webfinger"
 to = "https://mstdn.party/.well-known/webfinger?resource=acct:spjpgrd@mstdn.party"
 status = 200
 
+
+[[redirects]]
+  from = "/.well-known/webfinger"
+  to = "https://mstdn.party/.well-known/webfinger?resource=acct:HANDLE@INSTANCE"
+  status = 200
+
 # Social redirects
 [[redirects]]
 from = "/on/mastodon"
