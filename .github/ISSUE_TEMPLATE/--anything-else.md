@@ -14,10 +14,10 @@ Anything else should be posted to https://forum.ghost.org 👫.
 
 Alternatively, check out these resources below. Thanks! 😁.
 
--   [Forum](https://forum.ghost.org/c/help)
--   [Eleventy docs](https://docs.ghost.org/api/gatsby/)
--   [Content API Docs](11ty.io/docs/)
--   [Eleventy](11ty.io)
--   [Feature Requests / Ideas](https://forum.ghost.org/c/Ideas)
--   [Contributing Guide](https://docs.ghost.org/docs/contributing)
--   [Self-hoster Docs](https://docs.ghost.org/)
+- [Forum](https://forum.ghost.org/c/help)
+- [Eleventy docs](https://docs.ghost.org/api/gatsby/)
+- [Content API Docs](11ty.io/docs/)
+- [Eleventy](11ty.io)
+- [Feature Requests / Ideas](https://forum.ghost.org/c/Ideas)
+- [Contributing Guide](https://docs.ghost.org/docs/contributing)
+- [Self-hoster Docs](https://docs.ghost.org/)

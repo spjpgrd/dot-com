@@ -29,7 +29,7 @@ Any other info e.g. Why do you consider this to be a bug? What did you expect to
 
 ### Technical details:
 
--   Ghost Version:
--   Eleventy Version:
--   Node Version:
--   OS:
+- Ghost Version:
+- Eleventy Version:
+- Node Version:
+- OS:

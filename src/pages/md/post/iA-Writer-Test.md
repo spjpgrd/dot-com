@@ -22,4 +22,8 @@ Added a link, but now feeling like the link
 
 Just wasted 45 minutes figuring out stupid things. I've forgotten so much 😅
 
-brb — 16:10 MT
+---
+
+Testing writing in iA Writer on my iPad, and pointing to the project within Working Copy.
+
+Found this! https://www.macstories.net/ios/my-markdown-writing-and-collaboration-workflow-powered-by-working-copy-3-6-icloud-drive-and-github/
