@@ -7,7 +7,7 @@
     // Aliases: https://docs.astro.build/en/guides/aliases/
     "paths": {
       "@components/*": ["src/components/*"],
-      "@layouts/*": ["src/layouts/*"],
-    },
+      "@layouts/*": ["src/layouts/*"]
+    }
   }
 }
