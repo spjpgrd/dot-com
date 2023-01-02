@@ -2,6 +2,8 @@
 
 Welcome. Come on in.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7f12a67c-fc22-4aa7-b323-7e5ba72f32b0/deploy-status)](https://app.netlify.com/sites/spjpgrd/deploys)
+
 ## 🧞 Commands
 
 All commands are run from the root of the project, from a terminal:
