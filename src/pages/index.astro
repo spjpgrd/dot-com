@@ -2,6 +2,19 @@
 import Layout from "@layouts/Layout.astro";
 import Test from "@components/Test";
 import NowPlaying from "@components/NowPlaying";
+
+const data = await fetch(
+  "https://ws.audioscrobbler.com/2.0/?api_key=d89f57d26c2715455eda7c4cef52490c&method=User.getrecenttracks&user=spjpgrd&format=json&limit=1&extended=1"
+)
+  .then((response) => {
+    if (!response.ok) {
+      throw new Error(response.statusText);
+    }
+    return response.json();
+  })
+  .catch((error) => {
+    console.error(error);
+  });
 ---
 
 <Layout>
@@ -14,8 +27,7 @@ import NowPlaying from "@components/NowPlaying";
     Building this from scratch on <a target="_blank" href="/on/twitch">Twitch</a
     >, because why not?
   </p>
-  <hr />
-  <NowPlaying client:load />
+  <NowPlaying data={data} client:load />
   <hr />
   <ul>
     <li><a rel="me" target="_blank" href="/on/500px">500px</a></li>

@@ -1,18 +1,6 @@
-const data = await fetch(
-  "https://ws.audioscrobbler.com/2.0/?api_key=d89f57d26c2715455eda7c4cef52490c&method=User.getrecenttracks&user=spjpgrd&format=json&limit=1&extended=1"
-)
-  .then((response) => {
-    if (!response.ok) {
-      throw new Error(response.statusText);
-    }
-    return response.json();
-  })
-  .catch((error) => {
-    console.error(error);
-  });
-
-const NowPlaying = () => {
-  if (data) {
+const NowPlaying = (props) => {
+  const data = { ...props.data };
+  if (Object.keys(data).length != 0) {
     return (
       <dl>
         <dt>
