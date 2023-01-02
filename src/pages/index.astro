@@ -1,6 +1,7 @@
 ---
-import Layout from "../layouts/Layout.astro";
-import Test from "../components/Test";
+import Layout from "@layouts/Layout.astro";
+import Test from "@components/Test";
+import NowPlaying from "@components/NowPlaying";
 ---
 
 <Layout>
@@ -14,7 +15,8 @@ import Test from "../components/Test";
     >, because why not?
   </p>
   <hr />
-
+  <NowPlaying client:load />
+  <hr />
   <ul>
     <li><a rel="me" target="_blank" href="/on/500px">500px</a></li>
     <li><a rel="me" target="_blank" href="/on/aboutme">aboutme</a></li>
