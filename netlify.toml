@@ -384,3 +384,12 @@ from = "/on/gravatar"
 to = "https://gravatar.com/spjpgrd"
 status = 307
 
+[[redirects]]
+from = "/on/bereal"
+to = "https://bere.al/spjpgrd"
+status = 307
+
+[[redirects]]
+from = "/on/be-real"
+to = "https://bere.al/spjpgrd"
+status = 307
