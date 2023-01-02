@@ -11,7 +11,8 @@ const NowPlaying = (props) => {
         <br />
         <dd>
           <span>
-            <strong>{data.recenttracks.track[0].name}</strong>  <a target="_blank" href={data.recenttracks.track[0].url}>
+            <strong>{data.recenttracks.track[0].name}</strong>{" "}
+            <a target="_blank" href={data.recenttracks.track[0].url}>
               ☞
             </a>
           </span>
