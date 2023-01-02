@@ -4,7 +4,7 @@ const NowPlaying = (props) => {
     return (
       <dl>
         <dt>
-          {data.recenttracks.track[0]["@attr"].nowplaying === "true"
+          {data.recenttracks.track[0]["@attr"]?.nowplaying === "true"
             ? `Now Playing`
             : `Last Played`}
         </dt>
