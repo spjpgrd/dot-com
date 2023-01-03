@@ -73,9 +73,15 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
   </head>
-  <main>
-    <slot />
-  </main>
-
-
+  <body style="max-width: 70ch; margin: 2rem auto;">
+    <main>
+      <slot />
+    </main>
+    <hr />
+    <footer>
+      see this on <a target="_blank" href="https://github.com/spjpgrd/dot-com"
+        >github</a
+      >
+    </footer>
+  </body>
 </html>
