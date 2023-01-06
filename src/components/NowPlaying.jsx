@@ -23,10 +23,15 @@ function NowPlaying(props) {
             </small>
           </dd>
         </dl>
-        <p>Provided by <a rel="me" target="_blank" href="/on/lastfm">Last.fm</a></p>
+        <p>
+          Provided by{" "}
+          <a rel="me" target="_blank" href="/on/lastfm">
+            Last.fm
+          </a>
+        </p>
       </>
     );
   }
-};
+}
 
 export default NowPlaying;
