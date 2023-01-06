@@ -74,14 +74,8 @@
     -->
   </head>
   <body style="max-width: 70ch; margin: 2rem auto; padding: 1rem">
-    <main>
-      <slot />
-    </main>
+      <slot name="main"/>
     <hr />
-    <footer>
-      see this on <a target="_blank" href="https://github.com/spjpgrd/dot-com"
-        >github</a
-      >
-    </footer>
+      <slot name="footer"/>
   </body>
 </html>
