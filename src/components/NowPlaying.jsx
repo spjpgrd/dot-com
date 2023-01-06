@@ -1,4 +1,4 @@
-const NowPlaying = (props) => {
+function NowPlaying(props) {
   const data = { ...props.data };
   if (Object.keys(data).length != 0) {
     return (
