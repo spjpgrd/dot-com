@@ -1,5 +1,5 @@
 function PersonalCopyright() {
-  const firstYear = 2022;
+  const firstYear = 2014;
   const currentYear = new Date().getFullYear();
   const displayedDateRange = `${firstYear}–${currentYear}`;
 
