@@ -398,3 +398,13 @@ status = 307
 from = "/on/twitch"
 to = "https://twitch.com/spjpgrd"
 status = 307
+
+[[redirects]]
+from = "/on/alltrails"
+to = "https://www.alltrails.com/members/sean-doran-24"
+status = 307
+
+[[redirects]]
+from = "/on/all-trails"
+to = "https://www.alltrails.com/members/sean-doran-24"
+status = 307
