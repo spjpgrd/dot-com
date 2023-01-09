@@ -2,6 +2,7 @@
 import Layout from "@layouts/Layout.astro";
 import Test from "@components/Test";
 import NowPlaying from "@components/NowPlaying";
+import PersonalCopyright from "@components/PersonalCopyright";
 
 const data = await fetch(
   "https://ws.audioscrobbler.com/2.0/?api_key=d89f57d26c2715455eda7c4cef52490c&method=User.getrecenttracks&user=spjpgrd&format=json&limit=1&extended=1"
@@ -18,84 +19,99 @@ const data = await fetch(
 ---
 
 <Layout>
-  <h1>Seán says hi.</h1>
-  <p>With a lot of noodles.</p>
-  <hr />
-  <h2>A literal work in progress</h2>
-  <p>Started 2022, December 27 & <Test someText={"28"} /></p>
-  <p>
-    Building this from scratch on <a target="_blank" href="/on/twitch">Twitch</a
-    >, because why not?
-  </p>
-  <NowPlaying data={data} client:load />
-  <hr />
-  <ul>
-    <li><a rel="me" target="_blank" href="/on/500px">500px</a></li>
-    <li><a rel="me" target="_blank" href="/on/aboutme">aboutme</a></li>
-    <li><a rel="me" target="_blank" href="/on/angellist">angel list</a></li>
-    <li><a rel="me" target="_blank" href="/on/applemusic">apple music</a></li>
-    <li><a rel="me" target="_blank" href="/on/battlenet">battlenet</a></li>
-    <li><a rel="me" target="_blank" href="/on/bereal">be real</a></li>
-    <li><a rel="me" target="_blank" href="/on/codeacademy">codeacademy</a></li>
-    <li><a rel="me" target="_blank" href="/on/codepen">codepen</a></li>
-    <li><a rel="me" target="_blank" href="/on/cohost">cohost</a></li>
-    <li><a rel="me" target="_blank" href="/on/delectable">delectable</a></li>
-    <li>
-      <a rel="me" target="_blank" href="/on/designernews">designernews</a>
-    </li>
-    <li><a rel="me" target="_blank" href="/on/devto">dev community</a></li>
-    <li><a rel="me" target="_blank" href="/on/discord">discord</a></li>
-    <li><a rel="me" target="_blank" href="/on/dribbble">dribbble</a></li>
-    <li><a rel="me" target="_blank" href="/on/ello">ello</a></li>
-    <li><a rel="me" target="_blank" href="/on/etsy">etsy</a></li>
-    <li><a rel="me" target="_blank" href="/on/figma">figma</a></li>
-    <li><a rel="me" target="_blank" href="/on/fiverr">fiverr</a></li>
-    <li><a rel="me" target="_blank" href="/on/flickr">flickr</a></li>
-    <li><a rel="me" target="_blank" href="/on/foursquare">foursquare</a></li>
-    <li><a rel="me" target="_blank" href="/on/genius">genius</a></li>
-    <li><a rel="me" target="_blank" href="/on/github">github</a></li>
-    <li><a rel="me" target="_blank" href="/on/gitlab">gitlab</a></li>
-    <li><a rel="me" target="_blank" href="/on/gravatar">gravatar</a></li>
-    <li><a rel="me" target="_blank" href="/on/hackernews">hackernews</a></li>
-    <li><a rel="me" target="_blank" href="/on/hypemachine">hype machine</a></li>
-    <li><a rel="me" target="_blank" href="/on/keybase">keybase</a></li>
-    <li><a rel="me" target="_blank" href="/on/kickstarter">kickstarter</a></li>
-    <li><a rel="me" target="_blank" href="/on/lastfm">last.fm</a></li>
-    <li><a rel="me" target="_blank" href="/on/linkedin">linkedin</a></li>
-    <li><a rel="me" target="_blank" href="/on/mastodon">mastodon</a></li>
-    <li><a rel="me" target="_blank" href="/on/medium">medium</a></li>
-    <li><a rel="me" target="_blank" href="/on/meetup">meetup</a></li>
-    <li>
-      <a rel="me" target="_blank" href="/on/myfitnesspal">myfitnesspal</a>
-    </li>
-    <li><a rel="me" target="_blank" href="/on/nintendo">nintendo</a></li>
-    <li><a rel="me" target="_blank" href="/on/paypal">paypal</a></li>
-    <li><a rel="me" target="_blank" href="/on/pinterest">pinterest</a></li>
-    <li><a rel="me" target="_blank" href="/on/producthunt">producthunt</a></li>
-    <li><a rel="me" target="_blank" href="/on/quora">quora</a></li>
-    <li><a rel="me" target="_blank" href="/on/rapchat">rapchat</a></li>
-    <li><a rel="me" target="_blank" href="/on/snapchat">snapchat</a></li>
-    <li><a rel="me" target="_blank" href="/on/soundcloud">soundcloud</a></li>
-    <li><a rel="me" target="_blank" href="/on/squarecash">square cash</a></li>
-    <li>
-      <a rel="me" target="_blank" href="/on/stackexchange">stackexchange</a>
-    </li>
-    <li>
-      <a rel="me" target="_blank" href="/on/stackoverflow">stackoverflow</a>
-    </li>
-    <li><a rel="me" target="_blank" href="/on/steam">steam</a></li>
-    <li><a rel="me" target="_blank" href="/on/tumblr">tumblr</a></li>
-    <li><a rel="me" target="_blank" href="/on/unsplash">unsplash</a></li>
-    <li><a rel="me" target="_blank" href="/on/untappd">untappd</a></li>
-    <li><a rel="me" target="_blank" href="/on/venmo">venmo</a></li>
-    <li><a rel="me" target="_blank" href="/on/vimeo">vimeo</a></li>
-    <li><a rel="me" target="_blank" href="/on/wellfound">wellfound</a></li>
-    <li><a rel="me" target="_blank" href="/on/yelp">yelp</a></li>
-  </ul>
+  <main slot="main">
+    <h1>Seán says hi.</h1>
+    <p>With a lot of gusto.</p>
+    <hr />
+    <h2>A literal work in progress</h2>
+    <p>Started 2022, December 27</p>
+    <p>
+      Building this from scratch on <a target="_blank" href="/on/twitch"
+        >Twitch</a
+      >, because why not?
+    </p>
+    <NowPlaying data={data} client:load />
+    <hr />
+    <h2>The Scoop</h2>
+    <p>No styling until it's bare-bones functional, and without templates.</p>
+    <ul>
+      <li><a rel="me" target="_blank" href="/on/500px">500px</a></li>
+      <li><a rel="me" target="_blank" href="/on/aboutme">aboutme</a></li>
+      <li><a rel="me" target="_blank" href="/on/angellist">angel list</a></li>
+      <li><a rel="me" target="_blank" href="/on/applemusic">apple music</a></li>
+      <li><a rel="me" target="_blank" href="/on/battlenet">battlenet</a></li>
+      <li><a rel="me" target="_blank" href="/on/bereal">be real</a></li>
+      <li>
+        <a rel="me" target="_blank" href="/on/codeacademy">codeacademy</a>
+      </li>
+      <li><a rel="me" target="_blank" href="/on/codepen">codepen</a></li>
+      <li><a rel="me" target="_blank" href="/on/cohost">cohost</a></li>
+      <li><a rel="me" target="_blank" href="/on/delectable">delectable</a></li>
+      <li>
+        <a rel="me" target="_blank" href="/on/designernews">designernews</a>
+      </li>
+      <li><a rel="me" target="_blank" href="/on/devto">dev community</a></li>
+      <li><a rel="me" target="_blank" href="/on/discord">discord</a></li>
+      <li><a rel="me" target="_blank" href="/on/dribbble">dribbble</a></li>
+      <li><a rel="me" target="_blank" href="/on/ello">ello</a></li>
+      <li><a rel="me" target="_blank" href="/on/etsy">etsy</a></li>
+      <li><a rel="me" target="_blank" href="/on/figma">figma</a></li>
+      <li><a rel="me" target="_blank" href="/on/fiverr">fiverr</a></li>
+      <li><a rel="me" target="_blank" href="/on/flickr">flickr</a></li>
+      <li><a rel="me" target="_blank" href="/on/foursquare">foursquare</a></li>
+      <li><a rel="me" target="_blank" href="/on/genius">genius</a></li>
+      <li><a rel="me" target="_blank" href="/on/github">github</a></li>
+      <li><a rel="me" target="_blank" href="/on/gitlab">gitlab</a></li>
+      <li><a rel="me" target="_blank" href="/on/gravatar">gravatar</a></li>
+      <li><a rel="me" target="_blank" href="/on/hackernews">hackernews</a></li>
+      <li>
+        <a rel="me" target="_blank" href="/on/hypemachine">hype machine</a>
+      </li>
+      <li><a rel="me" target="_blank" href="/on/keybase">keybase</a></li>
+      <li>
+        <a rel="me" target="_blank" href="/on/kickstarter">kickstarter</a>
+      </li>
+      <li><a rel="me" target="_blank" href="/on/lastfm">last.fm</a></li>
+      <li><a rel="me" target="_blank" href="/on/linkedin">linkedin</a></li>
+      <li><a rel="me" target="_blank" href="/on/mastodon">mastodon</a></li>
+      <li><a rel="me" target="_blank" href="/on/medium">medium</a></li>
+      <li><a rel="me" target="_blank" href="/on/meetup">meetup</a></li>
+      <li>
+        <a rel="me" target="_blank" href="/on/myfitnesspal">myfitnesspal</a>
+      </li>
+      <li><a rel="me" target="_blank" href="/on/nintendo">nintendo</a></li>
+      <li><a rel="me" target="_blank" href="/on/paypal">paypal</a></li>
+      <li><a rel="me" target="_blank" href="/on/pinterest">pinterest</a></li>
+      <li>
+        <a rel="me" target="_blank" href="/on/producthunt">producthunt</a>
+      </li>
+      <li><a rel="me" target="_blank" href="/on/quora">quora</a></li>
+      <li><a rel="me" target="_blank" href="/on/rapchat">rapchat</a></li>
+      <li><a rel="me" target="_blank" href="/on/snapchat">snapchat</a></li>
+      <li><a rel="me" target="_blank" href="/on/soundcloud">soundcloud</a></li>
+      <li><a rel="me" target="_blank" href="/on/squarecash">square cash</a></li>
+      <li>
+        <a rel="me" target="_blank" href="/on/stackexchange">stackexchange</a>
+      </li>
+      <li>
+        <a rel="me" target="_blank" href="/on/stackoverflow">stackoverflow</a>
+      </li>
+      <li><a rel="me" target="_blank" href="/on/steam">steam</a></li>
+      <li><a rel="me" target="_blank" href="/on/tumblr">tumblr</a></li>
+      <li><a rel="me" target="_blank" href="/on/twitch">twitch</a></li>
+      <li><a rel="me" target="_blank" href="/on/unsplash">unsplash</a></li>
+      <li><a rel="me" target="_blank" href="/on/untappd">untappd</a></li>
+      <li><a rel="me" target="_blank" href="/on/venmo">venmo</a></li>
+      <li><a rel="me" target="_blank" href="/on/vimeo">vimeo</a></li>
+      <li><a rel="me" target="_blank" href="/on/wellfound">wellfound</a></li>
+      <li><a rel="me" target="_blank" href="/on/yelp">yelp</a></li>
+    </ul>
+  </main>
+  <footer slot="footer">
+    <p>
+      see this on <a target="_blank" href="https://github.com/spjpgrd/dot-com"
+        >github</a>
+    </p>
+    <PersonalCopyright />
+  </footer>
 </Layout>
-<hr />
-<footer>
-  see this on <a target="_blank" href="https://github.com/spjpgrd/dot-com"
-    >github</a
-  >
-</footer>
