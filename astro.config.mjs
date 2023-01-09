@@ -7,5 +7,5 @@ import compress from "astro-compress";
 export default defineConfig({
   output: "server",
   adapter: netlify(),
-  integrations: [react(), compress()]
+  integrations: [react(), compress()],
 });
